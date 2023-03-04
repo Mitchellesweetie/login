@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  outline: none;
+  box-sizing: border-box;
+  font-display: "Noto Sans JP",sans-serif;
+
+}
+body{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: url('burger.jpeg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+header{
+	position: fixed;
+	font-family: sans-serif;
+	padding: 20px 100px;
+	left: 0;
+	top: 0;
+	justify-content: space-between;
+	align-items: center;
+	display: flex;
+	z-index: 99;
+	width: 100%;
+}
+.centre{
+	text-align: center;
+	padding: 50px;
+	border: 1px solid black;
+}
+.navigation a{
+	top: 0;
+	margin-left: 40px;
+	font-weight: 500px;
+	font-size: 1.1rem;
+	position: relative;
+	text-decoration: none;
+	color: black;
+	float: right;
+	padding-right: 4px;
+
+}
+.navigation.btn_login{
+	width: 130px;
+	height: 50px;
+	margin-left: 40px;
+	font-weight: 500px;
+	border: 2px solid black;
+	border-radius: 6px;
+	font-size: 1.1rem;
+	color: #fff;
+	outline: none;
+	background: transparent;
+	
+}
+.logo{
+	font-size: 2rem;
+	color: black;
+	user-select: none;
+}
+.wrapper{
+	position: relative;
+	width: 400px;
+	height: 440px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .5);
+	border-radius: 20px;
+	backdrop-filter: blur(10px);
+	box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.wrapper.form-box{
+	width: 100px;
+	height: 40px;
+}
+.form-box h2{
+	text-align: center;
+}
+.details{
+	width: 200px;
+	height: 80px;
+	position: relative;
+	border-bottom: 2px solid black;
+	margin: 30px 0;
+
+}
+.details input{
+	width: 100px;
+	height: 100px;
+	background: transparent;
+	border: none;
+	outline: none;
+}
+.details span{
+	position: relative;
+	left:100px ;
+}
+.btn{
+	width: 130px;
+	height: 50px;
+	border-radius: 6px;
+	background: transparent;
+	justify-content: center;
+	align-content: center;
+	left: 50px;
+}
